@@ -1371,7 +1371,7 @@ try {
         let ntext = text
         .replace(/`/g, '`' + String.fromCharCode(8203))
         .replace(/@/g, '@' + String.fromCharCode(8203))
-        .replace(client.token, 'NDY0OTEwNjMzMjYwMDIzODA4.XSsVyQ.dsEBuycPTn6G4d3rZMtnN9aZrOo');
+        .replace(client.token, 'NDY0OTEwNjMzMjYwMDIzODA4.XSsZ0w.F7yh9PTiak70-8EbcAKk-aRo2pI');
         return '```\n' + ntext + '\n```';
       } else if (type === 'note') {
         return ':musical_note: | ' + text.replace(/`/g, '`' + String.fromCharCode(8203));
